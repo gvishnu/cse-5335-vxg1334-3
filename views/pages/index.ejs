@@ -21,7 +21,7 @@
         $.getJSON('/data', function (data) {
 
                     //$("table").append("<tbody><tr><td>" + d.Player_id + "</td><td>" + d.Player_name + "</td><td>" + d.Country + "</td><td>" + d.Position + "</td></tr></tbody>");
-                    $("table").fadeOut("slow", function(){
+                    $("table").slideDown("slow", function(){
                       var dt = data;
 
                       $("table").empty();
@@ -31,7 +31,7 @@
 
 
                         $(this).replaceWith(div);
-                        $("table").fadeIn("slow");
+                        $("table").slideUp("slow");
                         
 
                       }
