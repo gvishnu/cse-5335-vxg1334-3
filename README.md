@@ -1,39 +1,17 @@
-# node-js-getting-started
+READ ME.
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+——————
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+—> The aspects that I find easy is the Node.js part which I used for backend scripting.
 
-## Running Locally
+Connecting to mongoose (NoSql) database using the Node.js finds simpler in that specific
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+part.
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+—> Displaying only 20 records at a time and applying animations to it finds challenging.
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+—> The front end technologies for instance AJAX, JQUERY are widely used in today’s
 
-## Deploying to Heroku
+market. Many enterprices use these technologies for most of their web management
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+applications.
